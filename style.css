@@ -1,9 +1,9 @@
-@import url("layout.css");
-@import url("fonts.css");
-@import url("font-families.css");
-@import url("fontawesome.css");
-@import url("hamburger.css");
-@import url("accordion.css");
+@import url("/layout.css");
+@import url("/fonts.css");
+@import url("/font-families.css");
+@import url("/fontawesome.css");
+@import url("/hamburger.css");
+@import url("/accordion.css");
 
 
 .gradient {

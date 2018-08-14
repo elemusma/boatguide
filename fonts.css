@@ -1,0 +1,100 @@
+/* ========================================================================= */
+
+/* #Typography Sizes */
+
+/* ========================= typography ========================= */
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 21px;
+  line-height: 1.75;
+}
+
+h5 {
+  font-size: 19px;
+}
+
+h6 {
+  font-size: 17px;
+}
+
+.lead p {
+  font-size: 20px;
+}
+
+h2.h4 {
+  font-size: 26px;
+}
+
+h3.h6 {
+  font-size: 22px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: ralewayblack;
+  text-transform: uppercase;
+}
+
+p {
+    font-family: roboto_condensedregular;
+    letter-spacing: .04em;
+    line-height: 1.5;
+}
+
+.subheading {
+  font-family: roboto_condensedregular;
+  letter-spacing: .08em;
+  line-height: 1.5;
+}
+
+/* Font Color */
+
+/* ========================================================================= */
+
+/* ========================= skins ========================= */
+
+/* =============== light =============== */
+
+h1, h2, h3, h4, h5, h6, a {
+  color: #2364aa;
+}
+
+p, li, ul {
+  color: #525252;
+}
+
+/* =============== dark =============== */
+
+.style-dark h1, .style-dark h2, .style-dark h3, .style-dark h4, .style-dark h5,
+.style-dark h6, .style-dark p, .style-dark li, .style-dark ul, .style-dark a {
+  color: #ffffff;
+}
+
+/* Secondary Navigation Menu */
+
+/* ========================================================================= */
+
+/* ========================= menus ========================= */
+
+/* adjusts size for main navigation menu */
+
+.main.navigation li {
+    font-size: 18px;
+}
+
+/* adjusts size for secondary navigation menu */
+
+.secondary.menu li {
+    font-size: 12px;
+}

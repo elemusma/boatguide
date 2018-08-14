@@ -1,0 +1,42 @@
+.accordion {
+  background-color: #2364aa;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 21px;
+  transition: 0.4s;
+}
+
+.open,
+.accordion:hover {
+  background-color: #205A99;
+}
+
+.accordion:after {
+  content: '\f067';
+  font-family: "Font Awesome 5 Free";
+  color: #ffffff;
+  float: right;
+  font-size: 1.25em;
+  line-height: 25px;
+}
+
+.open:after {
+  content: "\2212";
+}
+
+.panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.2s ease-out;
+}
+
+.panel.active {
+  max-height: 2000px;
+  height:auto;
+  overflow: hidden;
+  transition: 0.2s ease-out;
+}

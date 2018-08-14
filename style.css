@@ -1,0 +1,31 @@
+@import url("layout.css");
+@import url("fonts.css");
+@import url("font-families.css");
+@import url("fontawesome.css");
+@import url("hamburger.css");
+@import url("accordion.css");
+
+
+.gradient {
+  background: -webkit-linear-gradient(left, rgb(47, 151, 214), rgb(21, 94, 173) 100%);
+}
+
+i {
+  color: #2364aa;
+}
+
+nav ul a li {
+    color: #2364aa;
+}
+
+@media only screen and (max-width: 959px) {
+  nav ul a {
+    text-decoration: none !important;
+  }
+  .main.navigation nav ul a li {
+    color: #ffffff;
+  }
+  .navigation.menu {
+      background: #2364aa;
+  }
+}
